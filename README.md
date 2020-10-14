@@ -24,4 +24,4 @@ Tests
 Unit Tests: npm run test
 Lint Tests: npm run lint
 UML
-wire-frame('./images/Screen Shot 2020-10-12 at 8.20.07 PM.png');
+wire-frame('./uml/img.png');
