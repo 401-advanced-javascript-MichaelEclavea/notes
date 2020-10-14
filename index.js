@@ -7,6 +7,10 @@ require('dotenv').config();
 
 const input = require('./lib/input.js');
 const note = require('./lib/notes.js');
+
+const testInput = require('./__tests__/input.test.js');
+const testNotes = require('./__tests__/notes.test.js');
+
 let argv = process.argv;
 
 let newNote = input(argv);
